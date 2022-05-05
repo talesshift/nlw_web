@@ -5,15 +5,16 @@ interface ButtonProps {
 
 function Button(props: ButtonProps){
   return(
-    <button>{props.text ?? 'Default'}</button>
+    <button className='bg-violet-500 px-4 h-10 rounded text-white hover:bg-violet-400 transition-colors'>{props.text ?? 'Default'}</button>
   )
 }
 
 function App() {
   return (
-    <div>
-      <h1>Hello world</h1>
+    <div className='flex gap-2'>
+      <Button text="alou"/>
       <Button text="enviar"/>
+      <Button text="uevo"/>
     </div>
   )
 }
