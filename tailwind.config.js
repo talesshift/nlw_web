@@ -9,18 +9,18 @@ module.exports = {
         },
         textOnBrand:'#FFFFFF',
         surface:{
-          Primary:'18181B',
+          Primary:'#18181B',
           Secondary:{
-            default: '27272A',
-            hover: '3F3F46'
+            default: '#27272A',
+            hover: '#3F3F46'
           }
         },
-        stroke:'52525B',
-        tooltip:'F$F$F5',
+        stroke:'#52525B',
+        tooltip:'#F$F$F5',
         text:{
           primary:'#F4F4F5',
-          Secondary:'A1A1AA',
-          onTooltip:'27272A'
+          Secondary:'#A1A1AA',
+          onTooltip:'#27272A'
         }
       }
     },
