@@ -20,10 +20,14 @@ module.exports = {
         text:{
           primary:'#F4F4F5',
           Secondary:'#A1A1AA',
-          onTooltip:'#27272A'
-        }
+          onTooltip:'#27272A',
+        },
+      },
+      borderRadius:{
+        md: '4px',
       }
     },
+    
   },
   plugins: [
     require('@tailwindcss/forms'),

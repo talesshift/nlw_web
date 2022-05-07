@@ -43,7 +43,7 @@ export function WidgetForm() {
             )}
             
             <footer className="text-xs text-neutral-400">
-                Feito com ♥ pelo <a className="underline underline-offset-2" href="www.tales.stolfi.org">TalesShift</a>
+                Feito com ♥ pelo <a className="underline underline-offset-2" href="http://www.tales.stolfi.org">TalesShift</a>
             </footer>
         </div>
     )
