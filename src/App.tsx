@@ -4,7 +4,7 @@ import { Widget } from './components/Widget'
 
 export function App() {
   return (
-    <div className=''>
+    <div>
       <Contour/>
       <Widget/>
     </div>
